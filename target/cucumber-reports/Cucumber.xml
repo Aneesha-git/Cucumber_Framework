@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.113389">
+    <testcase classname="End To End flow to check the unit and total price of an item" name="Check the Unit Price and Total price of an item" time="22.113389">
+        <system-out>
+            <![CDATA[Given User is on Home Page..................................................passed
+When User search for "Apple MacBook Pro 13-inch"............................passed
+And User add the Item to the cart and enter qty "5".........................passed
+When User view the shopping cart............................................passed
+Then User should see unit price "$1,800.00" and total price of item "Apple MacBook Pro 13-inch".passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
