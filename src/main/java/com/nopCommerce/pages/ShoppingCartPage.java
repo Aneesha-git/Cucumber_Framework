@@ -58,7 +58,7 @@ public class ShoppingCartPage {
 					
 					
 
-					Reporter.addStepLog("ExtectedTotalPrice : " + "$" + total_Price +".00"+ "" + " Actual Total : "
+					Reporter.addStepLog("ExtectedTotalPrice : " + "$" + total_Price +".00"+ "" + " ActualTotalPrice : "
 							+ "$"+TestUtils.convertPrice(columns.get(j + 3).getText())+".00");
 					assertEquals(total_Price + "", TestUtils.convertPrice(columns.get(j + 3).getText()));
 				}

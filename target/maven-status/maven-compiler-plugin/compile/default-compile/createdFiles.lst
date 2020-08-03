@@ -1,0 +1,8 @@
+com\nopCommerce\pages\ShoppingCartPage.class
+com\nopCommerce\util\ConfigDataProvider.class
+com\nopCommerce\pages\HomePage.class
+com\nopCommerce\pages\SearchResultsPage.class
+com\nopCommerce\base\TestBase.class
+com\nopCommerce\pages\ProductDetailsPage.class
+com\nopCommerce\util\TestUtils.class
+com\nopCommerce\util\PageObjectManager.class
